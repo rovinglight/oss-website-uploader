@@ -8,7 +8,8 @@
   "dependencies": {
     "ali-oss": "^6.16.0",
     "chalk": "^4.1.1",
-    "fast-glob": "^3.2.7"
+    "fast-glob": "^3.2.7",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^7.31.0",
