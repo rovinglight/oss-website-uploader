@@ -1,10 +1,13 @@
 {
   "name": "oss-website-uploader",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "bin/index.js",
   "repository": "git@github.com:rovinglight/oss-website-uploader.git",
   "author": "陈宏辉 <646017375@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "dependencies": {
     "ali-oss": "^6.16.0",
     "chalk": "^4.1.1",
@@ -12,18 +15,31 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": ">=6",
     "lint-staged": ">=10",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "semantic-release": "^17.4.4"
   },
+  "file": [
+    "bin",
+    "fixture",
+    "constants.js"
+  ],
+  "keywords": [
+    "deploy",
+    "oss",
+    "aliyun"
+  ],
   "lint-staged": {
     "*.{js,json}": "prettier --write",
     "*.{js}": "eslint"
   },
-  "scripts": {
-    "prepare": "husky install"
+  "publishConfig": {
+    "access": "public"
   }
 }
