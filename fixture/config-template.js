@@ -3,7 +3,7 @@ module.exports = {
   accessKeySecret: "",
   bucket: "", // bucket 名称
   region: "", // bucket 所在地域。以华东1（杭州）为例，Region填写为oss-cn-hangzhou。
-  dir: "", // 上传的本地目录名称
+  dir: "dist", // 上传的本地目录名称
   rules: [
     // 禁止对 HTML 文件的缓存
     {
