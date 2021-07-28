@@ -50,7 +50,7 @@ const stepSuccess = () => console.log(chalk.green("✓ 成功"));
       "max-keys": 1000,
     });
     continuationToken = result.nextContinuationToken;
-    allOldFilesInBucket.push(...result.objects);
+    if (!_.isEmpty(result.objects)) allOldFilesInBucket.push(...result.objects);
   } while (continuationToken);
   stepSuccess();
 
