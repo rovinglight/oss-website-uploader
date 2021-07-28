@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/rovinglight/oss-website-uploader/compare/v1.0.2...v1.0.3) (2021-07-28)
+
+
+### Bug Fixes
+
+* 修复当 Bucket 中无文件时触发的错误 ([1a17eb7](https://github.com/rovinglight/oss-website-uploader/commit/1a17eb76e16407f32573ec54871ecabbf8b6f15a))
+
 ## [1.0.2](https://github.com/rovinglight/oss-website-uploader/compare/v1.0.1...v1.0.2) (2021-07-28)
 
 
