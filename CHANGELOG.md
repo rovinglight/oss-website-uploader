@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/rovinglight/oss-website-uploader/compare/v1.0.1...v1.0.2) (2021-07-28)
+
+
+### Bug Fixes
+
+* 修复 cli 无法运行的问题 ([735a2d3](https://github.com/rovinglight/oss-website-uploader/commit/735a2d3bd6e0c58b0f6a9f81978a2b21ab188b70))
+
 ## [1.0.1](https://github.com/rovinglight/oss-website-uploader/compare/v1.0.0...v1.0.1) (2021-07-28)
 
 # 1.0.0 (2021-07-28)
