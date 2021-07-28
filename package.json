@@ -2,6 +2,7 @@
   "name": "oss-website-uploader",
   "version": "1.0.1",
   "main": "bin/index.js",
+  "bin": "bin/index.js",
   "repository": "git@github.com:rovinglight/oss-website-uploader.git",
   "author": "陈宏辉 <646017375@qq.com>",
   "license": "MIT",
@@ -25,7 +26,7 @@
     "prettier": "^2.3.2",
     "semantic-release": "^17.4.4"
   },
-  "file": [
+  "files": [
     "bin",
     "fixture",
     "constants.js"
